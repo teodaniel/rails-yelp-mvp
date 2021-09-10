@@ -1,0 +1,8 @@
+<h1><%= @restaurant.name %></h1>
+
+<div>
+  <p>Address: <%= @restaurant.address %></p>
+  <p>Cuisine: <%= @restaurant.category %></p>
+  <p>For more information call <%= @restaurant.phone_number %></p>
+</div>
+<%= link_to "Back to list", restaurants_path %>
